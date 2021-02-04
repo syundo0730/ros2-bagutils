@@ -10,7 +10,7 @@ if (NOT CMAKE_CXX_STANDARD)
 endif()
 
 if (CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic -Werror)
+  add_compile_options(-Wall -Wextra -Wpedantic -Werror -O3)
 endif()
 
 find_package(ament_cmake REQUIRED)
@@ -48,6 +48,7 @@ install(
   PROGRAMS
     scripts/filter
     scripts/join
+    scripts/merge
     scripts/split
     scripts/timeline
   DESTINATION lib/${PROJECT_NAME}/
