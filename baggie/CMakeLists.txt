@@ -47,6 +47,7 @@ install(
 install(
   PROGRAMS
     scripts/filter
+    scripts/from_mp4
     scripts/join
     scripts/merge
     scripts/split

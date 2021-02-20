@@ -20,6 +20,7 @@
   <depend>rosbag2_cpp</depend>
   <depend>rosbag2_compression</depend>
   <depend>rosbag2_storage</depend>
+  <depend>cv_bridge</depend>
 
   <test_depend>ament_cmake_nose</test_depend>
   <test_depend>example_interfaces</test_depend>

@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+# -*- python -*-
+
+import sys
+from baggie.cmd import from_mp4 as FromMp4
+
+if __name__ == '__main__':
+    sys.exit(FromMp4.main())
